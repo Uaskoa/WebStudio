@@ -1,0 +1,21 @@
+.footer-form-btn {
+    @extend %button;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+  
+    &-svg  {
+      fill: #ffffff;
+      width: 24px;
+      height: 24px;
+      margin-left: 10px;
+    }
+   
+  }
+
+  @media screen and (min-width: 1200px) {
+    .footer-form-btn {
+      margin: 0;
+    }
+  }
